@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Duplicate List Tasks</title>
-</head>
-<body>
+  </head>
+  <body>
     <h3>Duplicate List task</h3>
-    
+
     <table border="1">
-        <thead>
-            <tr>
-                <th>Sno</th>
-                <th>Task Name</th>
-                <th>Status</th>
-                <th>Actions</th>
-            </tr>
+      <caption>
+        Duplicate list
+      </caption>
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Task Name</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
 
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Install VS Code</td>
-                <td>
-                
-                    <input type="radio" name="status1" id="completed" value="completed">
-                    <label for="completed">completed</label>
-                    <br/>
-                    <input type="radio" name="status1" id="pending" value="pending">
-                    <label for="pending">pending</label>
-            
-                </td>
-                <td>
-                    <a href="edittask.html">Edit</a> &nbsp;
-                    <a href="deletetask.html">Delete</a>
-
-                </td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Install JDK17</td>
-                <td>
-                    <input type="radio" name="status2" id="completed" value="completed">
-                    <label for="completed">completed</label>
-                    <br/>
-                    <input type="radio" name="status2" id="pending" value="pending">
-                    <label for="pending">pending</label>
-                   
-                </td>
-                <td>
-                    <a href="edittask.html">Edit</a> &nbsp;
-                    <a href="deletetask.html">Delete</a>
-
-                </td>
-            </tr>
-    
-        </tbody>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Install VS Code</td>
+          <td>
+            <input
+              type="radio"
+              name="status1"
+              id="completed"
+              value="completed"
+            />
+            <label for="completed">completed</label>
+            <br />
+            <input type="radio" name="status1" id="pending" value="pending" />
+            <label for="pending">pending</label>
+          </td>
+          <td>
+            <a href="edittask.html">Edit</a> &nbsp;
+            <a href="deletetask.html">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Install JDK17</td>
+          <td>
+            <input
+              type="radio"
+              name="status2"
+              id="completed"
+              value="completed"
+            />
+            <label for="completed">completed</label>
+            <br />
+            <input type="radio" name="status2" id="pending" value="pending" />
+            <label for="pending">pending</label>
+          </td>
+          <td>
+            <a href="edittask.html">Edit</a> &nbsp;
+            <a href="deletetask.html">Delete</a>
+          </td>
+        </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>
